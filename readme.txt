@@ -5,6 +5,18 @@ Mayo. 2023
 Mod by Juan C. @jcyrydia , colaboration @jujiga , based on Pandora theme by Ruckage.
 Only for personal use, commercial distribution is prohibited by original author.
 
+Modificaciones Custom
+seleccion de modos y configuracion personalizada para 
+logos
+musica 
+info
+overlays
+backgrounds
+tipografia
+selector
+video 
+frame
+characters
 
 License
 

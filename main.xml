@@ -1,0 +1,189 @@
+<theme>
+    <formatVersion>6</formatVersion>
+	
+	<view name="system, basic, detailed, video">
+	
+		<helpsystem name="help">
+			<fontPath>./art/Retron2000.ttf</fontPath>
+			<origin>0.5 1</origin>
+			<pos>0.5 0.96</pos>
+			<fontSize>0.030</fontSize>
+		</helpsystem>	
+			
+
+	</view>
+	
+	
+	
+	<view name="system">
+	
+		<image name="images-system" extra="true">
+			<pos>0.485 0.315</pos>
+			<origin>0.5 0.53</origin>
+			<alignment>center</alignment>
+			<color>ffffff</color>
+			<zIndex>100</zIndex>			
+		</image>
+
+
+        <image name="characters-system" extra="true">
+			<pos>0.5 0.55</pos>
+			<origin>0.5 0.53</origin>
+			<alignment>center</alignment>
+			<color>ffffff</color>
+			<zIndex>100</zIndex>			
+		</image>
+
+		<image name="background" extra="true">
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<color>ffffff</color>
+		</image>
+
+	<image name="overlay" extra="true">
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<color>ffffff</color>
+			<zIndex>10</zIndex>			
+		</image>
+
+        <image name="marco" extra="true">
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<color>ffffff</color>
+			<zIndex>10</zIndex>			
+		</image>
+
+
+		<carousel name="systemcarousel">
+			<type>horizontal_wheel</type>
+			<logoRotationOrigin>0.5 25</logoRotationOrigin>			
+			<logoRotation>30</logoRotation>
+			<logoAlignment>center</logoAlignment>
+			<color>00000000</color>
+			<logoScale>1.7</logoScale>
+			<logoSize>0.3 0.1111111111111111</logoSize>
+			<size>1 1</size>
+			<pos>0 -0.370</pos>
+			<maxLogoCount>3</maxLogoCount>
+		</carousel>		
+
+    
+		
+	</view>
+
+	
+	<view name="basic, detailed, video">
+
+
+		<image name="background" extra="true">
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<color>ffffff</color>
+		</image>	
+		
+		<textlist name="gamelist">
+
+			<selectorHeight>0.0648148148148148</selectorHeight>
+			<selectorColor>ffffff</selectorColor>
+			<forceUppercase>1</forceUppercase>
+			<fontPath>./art/fonts/American Captain.ttf</fontPath>
+			<fontSize>0.0425925925925926</fontSize>
+			<lineSpacing>1.639130434782609</lineSpacing>
+			<primaryColor>ffffff66</primaryColor>
+			<secondaryColor>ffff00</secondaryColor>
+			<selectedColor>ffffff</selectedColor>
+			<size>0.5625 0.6666666666666667</size>
+			<pos>0.2786458333333333 0.5324074074074074</pos>
+			<horizontalMargin>0.05</horizontalMargin>
+			<origin>0.5 0.5</origin>
+		</textlist>			
+		
+		<image name="logo">
+			<maxSize>0.5208333333333333 0.1666666666666667</maxSize>
+			<pos>0.2916666666666667 0.0833333333333333</pos>
+			<origin>0.5 0.5</origin>
+		</image>
+		
+		<text name="logoText">
+			<size>0.5208333333333333 0.162962962962963</size>
+			<pos>0.2916666666666667 0.0833333333333333</pos>
+			<origin>0.5 0.5</origin>
+		</text>
+		
+		<rating name="md_rating">
+			<pos>2 2</pos>
+		</rating>	
+
+		<datetime name="md_releasedate, md_lastplayed">
+			<pos>2 2</pos>
+		</datetime>		
+		
+		<image name="md_marquee">
+			<pos>0.8 0.085</pos> <!-- Posicion de wheel -->
+			<origin>0.5 0.5</origin>
+			<maxSize>0.310 0.110</maxSize> <!-- Tamaño de wheel -->
+		</image>
+
+
+		<image name="md_image">
+			<size>0.3333333333333333 0.4444444444444444</size>
+			<zIndex>100</zIndex>
+			<pos>0.7911458333333334 0.4259259259259259</pos>
+			<origin>0.5 0.5</origin>
+		</image>
+
+	</view>	
+
+	<view name="video">
+
+		<video name="md_video">
+			<size>0.3333333333333333 0.4444444444444444</size>
+			<zIndex>101</zIndex>			
+			<pos>0.7911458333333334 0.4259259259259259</pos>
+			<origin>0.5 0.5</origin>
+			<showSnapshotDelay>true</showSnapshotDelay>
+			<delay>0.8</delay>
+		</video>
+		
+
+
+	</view>
+
+
+
+
+
+    <view name="menu">
+    <text name="systemInfo">
+      <pos>0.0 0.61</pos>
+      <backgroundColor>00000000</backgroundColor>
+      <color>ECECEC</color>
+      <fontSize>0.02</fontSize>
+    </text>
+  <menuText name="menufooter">
+      <fontSize>0.0021</fontSize>
+      <color>00000000</color>
+    </menuText>
+    <menuText name="menutext">
+      <fontSize>0.033</fontSize>
+      <color>DFDCDC</color>
+      <separatorColor>555555FF</separatorColor>
+      <selectorColor>006ca3</selectorColor>
+      <selectedColor>FFFFFF</selectedColor>
+    </menuText>
+    <menuTextSmall name="menutextsmall">
+      <fontSize>0.02</fontSize>
+      <color>deec00</color>
+    </menuTextSmall>
+    <menuText name="menutitle">
+      <fontSize>0.037</fontSize>
+      <color>DFECFA</color>
+    </menuText>
+    <menuBackground name="menubg">
+      <color>2D2C2C</color>
+    </menuBackground>
+    </view>
+
+
+</theme>

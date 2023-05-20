@@ -1,0 +1,115 @@
+<!--
+theme name:     pandora-mod
+version:        1.2
+author:         Jcyrydia
+Colaboracion:   Jujiga
+email:          jcyrydia@gmail.com
+website:        
+license:        creative commons CC-BY-NC-SA
+Based on: pandora retropie
+telegram:  @jcyrydia @jujiga
+-->
+
+<theme>
+    <formatVersion>6</formatVersion>
+
+	<include>./main.xml</include>
+
+
+<subset name="Colorset" displayName="${lang.Colorset}">
+<include name="blue" displayName="${lang.blue}">./settings/colours/blue.xml</include>
+<include name="D-ball" displayName="${lang.D-ball}">./settings/colours/D-ball.xml</include>
+<include name="pink" displayName="${lang.pink}">./settings/colours/pink.xml</include>
+<include name="yellow" displayName="${lang.yellow}">./settings/colours/yellow.xml</include>
+<include name="red" displayName="${lang.red}">./settings/colours/red.xml</include>
+<include name="green" displayName="${lang.green}">./settings/colours/green.xml</include>
+<include name="red-yellow" displayName="${lang.red-yellow}">./settings/colours/red-yellow.xml</include>
+<include name="purple" displayName="${lang.purple}">./settings/colours/purple.xml</include>
+<include name="blue-aqua" displayName="${lang.blue-aqua}">./settings/colours/blue-aqua.xml</include>
+<include name="80s" displayName="${lang.80s}">./settings/colours/80s.xml</include>
+<include name="samus" displayName="${lang.samus}">./settings/colours/samus.xml</include>
+<include name="graphite" displayName="${lang.graphite}">./settings/colours/graphite.xml</include>
+<include name="lilac" displayName="${lang.lilac}">./settings/colours/lilac.xml</include>
+<include name="graphite-gold" displayName="${lang.graphite-gold}">./settings/colours/graphite-gold.xml</include>
+<include name="silver" displayName="${lang.silver}">./settings/colours/silver.xml</include>
+<include name="amber" displayName="${lang.amber}">./settings/colours/amber.xml</include>
+<include name="pink-yellow" displayName="${lang.pink-yellow}">./settings/colours/pink-yellow.xml</include>
+<include name="yellow-green" displayName="${lang.yellow-green}">./settings/colours/yellow-green.xml</include>
+<include name="bluesteel" displayName="${lang.bluesteel}">./settings/colours/bluesteel.xml</include>
+</subset>
+
+<subset name="Background" displayName="${lang.Background}">
+<include name="Drive80s" displayName="${lang.Drive80s}">./settings/overlays/Drive80s.xml</include>
+<include name="Neon80s" displayName="${lang.Neon80s}">./settings/overlays/Neon80s.xml</include>
+<include name="Blue80s" displayName="${lang.Blue80s}">./settings/overlays/Blue80s.xml</include>
+<include name="Purple80s" displayName="${lang.Purple80s}">./settings/overlays/Purple80s.xml</include>
+<include name="Retro80s" displayName="${lang.Retro80s}">./settings/overlays/Retro80s.xml</include>
+<include name="TheWall" displayName="${lang.TheWall}">./settings/overlays/TheWall.xml</include>
+<include name="TheColmen" displayName="${lang.TheColmen}">./settings/overlays/TheColmen.xml</include>
+<include name="TheColmenNeon" displayName="${lang.TheColmenNeon}">./settings/overlays/TheColmenNeon.xml</include>
+<include name="TheColmenBlack" displayName="${lang.TheColmenBlack}">./settings/overlays/TheColmenBlack.xml</include>
+<include name="TheColmenBlue" displayName="${lang.TheColmenBlue}">./settings/overlays/TheColmenBlue.xml</include>
+<include name="Pandora" displayName="${lang.Pandora}">./settings/overlays/Pandora.xml</include>
+</subset>
+
+
+<subset name="Console" displayName="${lang.Console}">
+<include name="console-on" displayName="${lang.console-on}">./settings/console/console-on.xml</include>
+<include name="console-off" displayName="${lang.console-off}">./settings/console/console-off.xml</include>
+</subset>
+
+
+<subset name="Characters" displayName="${lang.Characters}">
+<include name="Characters-on" displayName="${lang.Characters-on}">./settings/Characters/Characters-on.xml</include>
+<include name="Characters-off" displayName="${lang.Characters-off}">./settings/Characters/Characters-off.xml</include>
+</subset>
+
+<subset name="Logo" displayName="${lang.Logo}">
+<include name="Logo-Original" displayName="${lang.Logo-Original}">./settings/logo/Logo-Original.xml</include>
+<include name="Logo" displayName="${lang.Logo}">./settings/logo/logo.xml</include>
+<include name="consola" displayName="${lang.consola}">./settings/logo/consola.xml</include>
+</subset>
+
+<subset name="Music" displayName="${lang.Music}">
+<include name="Modern" displayName="${lang.Modern}">./settings/music/music-modern.xml</include>
+<include name="Arcade" displayName="${lang.Arcade}">./settings/music/music-arcade.xml</include>
+<include name="music-off" displayName="${lang.music-off}">./settings/music/music-off.xml</include>
+</subset>
+
+
+<subset name="Panel" displayName="${lang.Panel}">
+<include name="Video" displayName="${lang.Video}">./settings/video/video-on.xml</include>
+<include name="Image" displayName="${lang.Image}">./settings/video/video-off.xml</include>
+<include name="Clean" displayName="${lang.Clean}">./settings/video/video-clean.xml</include>
+</subset>
+
+<subset name="Info System" displayName="${lang.Info System}">
+<include name="info-top" displayName="${lang.info-top}">./settings/info/info-top.xml</include>
+<include name="info-bottom" displayName="${lang.info-bottom}">./settings/info/info-bottom.xml</include>
+</subset>
+
+<subset name="Frame" displayName="${lang.Frame}">
+<include name="Marco-on" displayName="${lang.Marco-on}">./settings/marco/Marco-on.xml</include>
+<include name="Marco-off" displayName="${lang.Marco-off}">./settings/marco/Marco-off.xml</include>
+</subset>
+
+<subset name="Selector" displayName="${lang.Selector}">
+<include name="blue" displayName="${lang.blue}">./settings/selector/blue.xml</include>
+<include name="lila" displayName="${lang.lila}">./settings/selector/lila.xml</include>
+<include name="grana" displayName="${lang.grana}">./settings/selector/grana.xml</include>
+<include name="green" displayName="${lang.green}">./settings/selector/green.xml</include>
+<include name="morado" displayName="${lang.morado}">./settings/selector/morado.xml</include>
+<include name="verde" displayName="${lang.verde}">./settings/selector/verde.xml</include>
+<include name="rojo" displayName="${lang.rojo}">./settings/selector/rojo.xml</include>
+<include name="amarillo" displayName="${lang.amarillo}">./settings/selector/amarillo.xml</include>
+</subset>
+
+<subset name="Fonts" displayName="${lang.Fonts}">
+<include name="Shakapow" displayName="${lang.Shakapow}">./settings/fonts/shaka.xml</include>
+<include name="Retron2000" displayName="${lang.Retron2000}">./settings/fonts/retron2000.xml</include>
+<include name="Captain" displayName="${lang.Captain}">./settings/fonts/captain.xml</include>
+<include name="Road Rage" displayName="${lang.Road Rage}">./settings/fonts/RoadRage.xml</include>
+<include name="BebasNeue" displayName="${lang.BebasNeue}">./settings/fonts/bebas.xml</include>
+</subset>
+
+</theme>

@@ -1,0 +1,36 @@
+ES_Theme pandora mod
+Tema original pandora retropie ,este es un nuevo mod del famoso tema para retropie y pandora box
+para quienes son todos los creditos.
+tema compatile para Emulationstation
+retropie
+recalbox
+R5 2021
+R5 2023 aniversary
+RGbux
+Batocera
+Retrobat
+ 
+sistemas includos a 07-05-2023 V1.1
+
+dreamcast           mega-msu         psxromset     
+dreamcastromset     menu             saturn
+3do                 fba              model2     saturnromset
+3ds                 fbneo            model3     scummvm
+amiga               fds              msx        sega32x
+amigacd             fmtowns          n64        segacd
+amstradcpc          gameandwatch     naomi      sg-1000
+atari2600           gamecube         nds        singe
+atari5200           gamecuberomset   neogeo     snes
+atari7800           gamegear         neogeocd   snes-MSU1
+atari800            gb               nes        taitotypex
+atarilynx           gba              ngpc       vectrex
+atarist             gbc              openbor    wii
+atomiswave          hbmame           pce-cd     wiiware
+auto-favorites      intellivision    pcengine   wonderswancolor
+auto-lastplayed     jaguar           pc-games   x68000
+c64                 lightgun         pinball    xbox
+colecovision        linuxarcade      ps2        xboxromset
+cpsystem            mame             ps2romset  zinc
+custom-collections  mamev            psp        zxspectrum
+daphne              mastersystem     pspromset
+dosbox              megadrive        psx

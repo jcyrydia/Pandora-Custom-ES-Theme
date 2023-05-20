@@ -1,0 +1,12 @@
+<theme>
+    <formatVersion>6</formatVersion>
+
+	<view name="system, basic, detailed, video">
+	
+<textlist name="gamelist">
+	<selectorImagePath>./art/selector-blue.png</selectorImagePath>
+	
+		</textlist>		
+
+	</view>
+</theme>

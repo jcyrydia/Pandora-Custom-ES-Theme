@@ -1,0 +1,11 @@
+<theme>
+    <formatVersion>6</formatVersion>
+
+	<view name="system, basic, detailed, video">
+
+           <image name="logo">
+			<path>./art/logosori/${system.theme}.png</path>
+            <size>0.43 0.12</size>
+		</image>
+	   </view>
+</theme>

@@ -1,0 +1,19 @@
+<theme>
+    <formatVersion>6</formatVersion>
+	<view name="system">
+	
+	<text name="systemInfo">
+			<backgroundColor>00000000</backgroundColor>
+			<fontPath>./art/fonts/Road_Rage.otf</fontPath>
+			<fontSize>0.055</fontSize>
+			<size>0.2875 0.0305555555555556</size>
+			<pos>0.495 0.605</pos>
+			<color>efbc0b</color>
+			<origin>0.5 0.5</origin>
+			<alignment>center</alignment>
+			<zIndex>100</zIndex>			
+		</text>
+	</view>
+
+		
+</theme>

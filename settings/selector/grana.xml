@@ -1,0 +1,13 @@
+<theme>
+    <formatVersion>6</formatVersion>
+
+	<view name="system, basic, detailed, video">
+	
+<textlist name="gamelist">
+			<selectorImagePath>./art/selector-grana.png</selectorImagePath>
+	
+		</textlist>		
+
+
+	</view>
+</theme>

@@ -1,0 +1,17 @@
+<theme>
+    <formatVersion>6</formatVersion>
+
+	<view name="system">
+	
+	    <video name="md_video" extra="true">
+            <path>{random}</path>
+            <default>/home/arcade/roms/{system.theme}/media/snap/</default>
+            <color>FFFFFF</color>
+            <pos>0.495 0.603</pos>
+            <origin>0.5 0.5</origin>
+            <minSize>0.36 0.336</minSize>
+            <delay>0</delay>
+            <zIndex>76</zIndex>
+        </video>
+	</view>
+</theme>

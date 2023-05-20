@@ -1,0 +1,11 @@
+<theme>
+    <formatVersion>6</formatVersion>
+
+	<view name="system, basic, detailed, video">
+	
+<image name="images-system">
+			<path>./art/systems/${system.theme}/console1.png</path>
+		</image>
+
+	</view>
+</theme>

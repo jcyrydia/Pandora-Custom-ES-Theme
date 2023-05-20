@@ -1,0 +1,12 @@
+<theme>
+    <formatVersion>6</formatVersion>
+
+
+	
+	<view name="system">
+		<sound name="directory">
+			<path></path>
+		</sound>
+	</view>
+
+</theme>

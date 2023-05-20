@@ -1,0 +1,12 @@
+<theme>
+    <formatVersion>6</formatVersion>
+
+
+	
+	<view name="system">
+		<sound name="directory">
+			<path>/etc/emulationstation/themes/Pandora-Mod/art/music-modern/</path>
+		</sound>
+	</view>
+
+</theme>
